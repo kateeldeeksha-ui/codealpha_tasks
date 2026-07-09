@@ -32,49 +32,49 @@ class MusicPlayer {
                 title: 'Summer Vibes',
                 artist: 'The Melodies',
                 duration: 245,
-                image: 'https://via.placeholder.com/300?text=Summer+Vibes'
+                image: 'https://picsum.photos/300/300?random=1'
             },
             {
                 title: 'Midnight Dreams',
                 artist: 'Luna Echo',
                 duration: 198,
-                image: 'https://via.placeholder.com/300?text=Midnight+Dreams'
+                image: 'https://picsum.photos/300/300?random=2'
             },
             {
                 title: 'Electric Pulse',
                 artist: 'Neon Lights',
                 duration: 220,
-                image: 'https://via.placeholder.com/300?text=Electric+Pulse'
+                image: 'https://picsum.photos/300/300?random=3'
             },
             {
                 title: 'Ocean Waves',
                 artist: 'Coastal Sounds',
                 duration: 267,
-                image: 'https://via.placeholder.com/300?text=Ocean+Waves'
+                image: 'https://picsum.photos/300/300?random=4'
             },
             {
                 title: 'Mountain Echo',
                 artist: 'Nature Beats',
                 duration: 189,
-                image: 'https://via.placeholder.com/300?text=Mountain+Echo'
+                image: 'https://picsum.photos/300/300?random=5'
             },
             {
                 title: 'City Lights',
                 artist: 'Urban Groove',
                 duration: 203,
-                image: 'https://via.placeholder.com/300?text=City+Lights'
+                image: 'https://picsum.photos/300/300?random=6'
             },
             {
                 title: 'Starlight Serenade',
                 artist: 'Cosmic Harmony',
                 duration: 234,
-                image: 'https://via.placeholder.com/300?text=Starlight+Serenade'
+                image: 'https://picsum.photos/300/300?random=7'
             },
             {
                 title: 'Forest Rain',
                 artist: 'Nature Sounds',
                 duration: 210,
-                image: 'https://via.placeholder.com/300?text=Forest+Rain'
+                image: 'https://picsum.photos/300/300?random=8'
             }
         ];
 
