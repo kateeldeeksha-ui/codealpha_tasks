@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery - CodeAlpha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Image Gallery</h1>
+            <p>Explore our beautiful collection of images</p>
+        </header>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="abstract">Abstract</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Mountain Landscape">
+                <div class="overlay">
+                    <span class="category-tag">Nature</span>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop" alt="Forest Stream">
+                <div class="overlay">
+                    <span class="category-tag">Nature</span>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="city">
+                <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=400&h=300&fit=crop" alt="City Lights">
+                <div class="overlay">
+                    <span class="category-tag">City</span>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="abstract">
+                <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=300&fit=crop" alt="Abstract Art">
+                <div class="overlay">
+                    <span class="category-tag">Abstract</span>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Ocean Waves">
+                <div class="overlay">
+                    <span class="category-tag">Nature</span>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="city">
+                <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop" alt="Urban Architecture">
+                <div class="overlay">
+                    <span class="category-tag">City</span>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="abstract">
+                <img src="https://images.unsplash.com/photo-1549887534-f81065a531c4?w=400&h=300&fit=crop" alt="Colorful Abstract">
+                <div class="overlay">
+                    <span class="category-tag">Abstract</span>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=400&h=300&fit=crop" alt="Beach Sunset">
+                <div class="overlay">
+                    <span class="category-tag">Nature</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <button class="lightbox-prev">&#10094;</button>
+            <img id="lightbox-image" src="" alt="Lightbox Image">
+            <button class="lightbox-next">&#10095;</button>
+            <div class="lightbox-info">
+                <p id="lightbox-caption"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
